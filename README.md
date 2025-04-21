@@ -1,6 +1,4 @@
-from pathlib import Path
 
-readme_content = """
 # 👋 Привет! Меня зовут Пирматов Дилшод
 
 💻 Я — backend-разработчик на Python (Junior)  
