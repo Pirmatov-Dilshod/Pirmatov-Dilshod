@@ -1,4 +1,3 @@
-
 # 👋 Привет! Меня зовут Пирматов Дилшод
 
 💻 Я — backend-разработчик на Python (Junior)  
@@ -57,10 +56,3 @@
 - Люблю backend, REST и чистую архитектуру
 - Учу DevOps: деплой, docker, auto-tests, workflows
 - Постоянно расту через pet-проекты
-"""
-
-# Save the content to a README.md file
-readme_path = Path("/mnt/data/README.md")
-readme_path.write_text(readme_content.strip())
-
-readme_path.name
