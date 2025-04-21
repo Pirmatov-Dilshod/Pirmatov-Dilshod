@@ -1,3 +1,6 @@
+from pathlib import Path
+
+readme_content = """
 # 👋 Привет! Меня зовут Пирматов Дилшод
 
 💻 Я — backend-разработчик на Python (Junior)  
@@ -47,7 +50,7 @@
 ## 📫 Контакты
 
 - 💬 Telegram: [@Moneybossf](https://t.me/Moneybossf)
-- 🌐 GitHub: [github.com/moneybosses](https://github.com/moneybosses) *(если не менял имя)*
+- 🌐 GitHub: [github.com/Pirmatov-Dilshod](https://github.com/Pirmatov-Dilshod)
 
 ---
 
@@ -56,3 +59,10 @@
 - Люблю backend, REST и чистую архитектуру
 - Учу DevOps: деплой, docker, auto-tests, workflows
 - Постоянно расту через pet-проекты
+"""
+
+# Save the content to a README.md file
+readme_path = Path("/mnt/data/README.md")
+readme_path.write_text(readme_content.strip())
+
+readme_path.name
